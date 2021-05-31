@@ -1,0 +1,66 @@
+[13:43:44] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:43:44] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13:43:44] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:43:44] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:43:44] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13:43:44] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:43:44] [main/INFO]: Reloading ResourceManager: Default
+[13:43:44] [Worker-Main-13/INFO]: Loaded 7 recipes
+[13:43:45] [Worker-Main-13/INFO]: Loaded 927 advancements
+[13:43:46] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[13:43:46] [Server thread/INFO]: Loading properties
+[13:43:46] [Server thread/INFO]: Default game type: SURVIVAL
+[13:43:46] [Server thread/INFO]: Generating keypair
+[13:43:46] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Íóð¤ÓÛØ§Ùíüù¡£
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_291]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_291]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_291]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_291]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_291]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_291]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_291]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_291]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_291]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_291]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_291]
+	at zg$1.run(SourceFile:95) [server.jar:?]
+[13:43:47] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:43:47] [Server thread/INFO]: Using default channel type
+[13:43:48] [Server thread/INFO]: Preparing level "world"
+[13:43:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:43:49] [Server thread/INFO]: Preparing spawn area: 0%
+[13:43:49] [Server thread/INFO]: Preparing spawn area: 0%
+[13:43:49] [Server thread/INFO]: Preparing spawn area: 0%
+[13:43:50] [Server thread/INFO]: Preparing spawn area: 44%
+[13:43:52] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[13:43:52] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[13:43:52] [Worker-Main-14/INFO]: Preparing spawn area: 83%
+[13:43:52] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[13:43:52] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[13:43:53] [Worker-Main-14/INFO]: Preparing spawn area: 83%
+[13:43:53] [Worker-Main-14/INFO]: Preparing spawn area: 83%
+[13:43:54] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[13:43:54] [Worker-Main-9/INFO]: Preparing spawn area: 84%
+[13:43:55] [Worker-Main-10/INFO]: Preparing spawn area: 84%
+[13:43:55] [Worker-Main-17/INFO]: Preparing spawn area: 89%
+[13:43:55] [Server thread/INFO]: Time elapsed: 7253 ms
+[13:43:55] [Server thread/INFO]: Done (7.333s)! For help, type "help"
+[13:44:47] [User Authenticator #1/INFO]: UUID of player KatarinaQEWQR is b136899c-f6fa-4dc8-a095-2624fcec93b7
+[13:44:47] [Server thread/INFO]: KatarinaQEWQR[/127.0.0.1:4949] logged in with entity id 123 at (-182.5, 81.0, 195.5)
+[13:44:47] [Server thread/INFO]: KatarinaQEWQR joined the game
+[13:45:27] [Server thread/INFO]: KatarinaQEWQR lost connection: Disconnected
+[13:45:27] [Server thread/INFO]: KatarinaQEWQR left the game
+[13:45:31] [Server thread/INFO]: Stopping the server
+[13:45:31] [Server thread/INFO]: Stopping server
+[13:45:31] [Server thread/INFO]: Saving players
+[13:45:31] [Server thread/INFO]: Saving worlds
+[13:45:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:45:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:45:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[13:45:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:45:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[13:45:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:45:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:45:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:45:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
